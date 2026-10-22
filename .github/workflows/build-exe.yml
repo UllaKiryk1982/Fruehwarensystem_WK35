@@ -24,7 +24,7 @@ jobs:
 
       - name: Build EXE
         run: |
-          pyinstaller --onefile --windowed Fruehwarnsystem_WK35.py
+          pyinstaller --onefile --windowed Fruehwarensystem_WK35.py
 
       - name: Upload EXE
         uses: actions/upload-artifact@v4
