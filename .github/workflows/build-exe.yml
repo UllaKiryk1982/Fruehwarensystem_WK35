@@ -22,11 +22,12 @@ jobs:
           pip install numpy
           pip install xlsxwriter
           pip install openpyxl
+          pip install python-calamine
           pip install pyinstaller
 
       - name: Build EXE
         run: |
-          pyinstaller --clean --onefile Fruehwarensystem_WK35.py
+          pyinstaller --clean --onefile --collect-all python_calamine Fruehwarensystem_WK35.py
 
       - name: Upload EXE
         uses: actions/upload-artifact@v4
