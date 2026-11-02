@@ -36,7 +36,7 @@ warnings.simplefilter("ignore")
 
 root= tk.Tk()
 root.geometry("1500x200")
-root.title('RA Fruewarnsystem Werk 35                      Version 1.1\n                  @Autor Urszula Kiryk-Kania' )  #- @Autor Urszula Kiryk-Kania (PWL-1/4)'
+root.title('RA Fruewarnsystem Werk 35                      Version 1.2\n                  @Autor Urszula Kiryk-Kania' )  #- @Autor Urszula Kiryk-Kania (PWL-1/4)'
 
 root.update()
 
